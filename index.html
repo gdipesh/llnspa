@@ -9,7 +9,7 @@
       name="description"
     />
     <meta
-      content="Hotel in Birtamode, Luxury hotelBirtamode, Boutique hotel birtamode, Bussiness hotel Birtamode, Family-frendly hotel birtamod , hotel with SPA birtamod, hotel near mukti chowk, hotel near jhapa, hotel with meeting rooms birtamod, Hotel with banquet facilities Birtamode, hotel with restaurant ,Hotel with bar birtamode, hotel with free parking in birtamode ,"
+      content="Hotel in Birtamode, Luxury hotel Birtamode, Boutique hotel birtamode, Bussiness hotel Birtamode, Family-frendly hotel birtamod , hotel with SPA birtamod, hotel near mukti chowk, hotel near jhapa, hotel with meeting rooms birtamod, Hotel with banquet facilities Birtamode, hotel with restaurant ,Hotel with bar birtamode, hotel with free parking in birtamode ,lotus"
       name="keywords"
     />
     <!-- Favicons -->
@@ -49,6 +49,35 @@
     <!-- fbsdk -->
     <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v15.0" nonce="C4cVa15T"></script>
+
+<!-- fb chat  -->
+ <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "102058408977885");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v15.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top">
       <div class="container d-flex align-items-center">
@@ -136,9 +165,9 @@
       tabindex="-1"
       role="dialog"
       aria-labelledby="exampleModalCenterTitle"
-      aria-hidden="false"
+      aria-hidden="true"
     >
-      <div class="modal-dialog modal-fullscreen-sm-down " role="document">
+      <div class="modal-dialog modal-fullscreen " role="document">
         <div class="modal-content" data-aos="zoom-in" data-aos-delay="1000">
           <div class="modal-header">
             <button
@@ -151,26 +180,17 @@
               &times;
             </button>
           </div>
-          <!-- <div class="row no-gutters" style="overflow-y: auto !important;">
-           <div class="col-md-6 d-flex">
-              <div
-                class="modal-body  p-5 img d-flex"
-                style="
-                  background-image: url(assets/img/portfolio/portfolio-7.jpeg);
-                "
-              ></div> --
-          
-            </div> -->
+         
             <div class="col-md-12 d-flex " style="overflow-y: auto !important;">
               <div class="modal-body p-5 ms-auto d-flex align-items-center ">
-                <div class="text w-100 text-center py-2">
+                <div class="text w-100 text-center py-4">
                   <!-- <h4 class="mb-0 h1">60<span>%</span> Off</h4>
                   <h5 class="mb-1">For New Couples</h5> -->
-                  <div class="fb-post" data-href="https://www.facebook.com/wellotuspa/posts/pfbid0JFZGQDbXqYxXF6GJxNFq6D7VGqUDxBUGQvPV44Fan8Bgy7rVcwcot8NDmF5tecVgl" data-width="500" data-show-text="true"><blockquote cite="https://www.facebook.com/wellotuspa/posts/204132485468794" class="fb-xfbml-parse-ignore"><p>Saturday Night: 🥂🍸🍻🍸🎶
+                  <div class="fb-post mb-1" data-href="https://facebook.com/wellotuspa/posts/pfbid0JFZGQDbXqYxXF6GJxNFq6D7VGqUDxBUGQvPV44Fan8Bgy7rVcwcot8NDmF5tecVgl" data-width="290" data-show-text="true" data-aos="zoom-in" ><blockquote cite="https://facebook.com/wellotuspa/posts/204132485468794" class="fb-xfbml-parse-ignore"><p>Saturday Night: 🥂🍸🍻🍸🎶
                     Live performance by : The Call-Breakers Band 
                     We gonna make it Rock &amp; 🔥
                     
-                    14 Jan  2023 , Saturday...</p>Posted by <a href="https://www.facebook.com/wellotuspa">Lotus Lounge and SPA</a> on&nbsp;<a href="https://www.facebook.com/wellotuspa/posts/204132485468794">Friday, January 13, 2023</a></blockquote></div>
+                    14 Jan  2023 , Saturday...</p>Posted by <a href="https://facebook.com/wellotuspa">Lotus Lounge and SPA</a> on&nbsp;<a href="https://facebook.com/wellotuspa/posts/204132485468794">Friday, January 13, 2023</a></blockquote></div>
                   <a
                     href="tel:+9779801415370"
                     class="btn btn-primary d-block py-3"
@@ -730,7 +750,7 @@
                 />
               </div>
               <div class="portfolio-info">
-                <h4>most of the our guest like this art</h4>
+                <!-- <h4>most of the our guest like this art</h4> -->
                 <p>
                   
                 </p>
@@ -753,11 +773,11 @@
                 />
               </div>
               <div class="portfolio-info">
-                <h4>most of the our guest like this art</h4>
+                <!-- <h4>most of the our guest like this art</h4>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Distinctio ea quibusdam at
-                </p>
+                </p> -->
                 <a
                   href="assets/img/portfolio/63567-_36.jpg"
                   data-gallery="portfolioGallery"
@@ -777,10 +797,10 @@
                 />
               </div>
               <div class="portfolio-info">
-                <h4>most of the our guest like this art</h4>
+                <!-- <h4>most of the our guest like this art</h4>
                 <p>
                   
-                </p>
+                </p> -->
                 <a
                   href="assets/img/portfolio/yogiping.jpeg"
                   data-gallery="portfolioGallery"
@@ -1077,6 +1097,10 @@
                 <li>
                   <i class="bx bx-chevron-right"></i>
                   <a href="#services">Services</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="news.html">News</a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>
