@@ -37,6 +37,36 @@
   <body>
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v15.0" nonce="C4cVa15T"></script>
+
+    <!-- fb chat  -->
+ <!-- Your Chat Plugin code -->
+ <div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "102058408977885");
+  chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+<!-- Your SDK code -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v15.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+<!-- fb chat end -->
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top header-inner-pages">
       <div class="container d-flex align-items-center">
@@ -162,21 +192,43 @@
             <h2>Live performance by : The WAVE Band</h2>
             paste embed code here
           </div> -->
-          <div class="col-lg-4 col-md-6 portfolio-item mb-3  ">
-            <h2>Happy Makar Sankranti</h2>
-            <div class="fb-post" data-href="https://www.facebook.com/wellotuspa/posts/pfbid0CCSuZ7QJosARoujmjnVats5jbUXWVyqx9StXUqgKqiZ3aDADJUuqGo4aUwpCdsfXl" data-width="290" data-show-text="true"><blockquote cite="https://www.facebook.com/wellotuspa/posts/204366638778712" class="fb-xfbml-parse-ignore"><p>&quot;Sending our Heartfelt Wishes to You and Your Family for a Happy and Blessed Makar Sankranti &quot; 
-              - Lotus Family 🥀</p>Posted by <a href="https://www.facebook.com/wellotuspa">Lotus Lounge and SPA</a> on&nbsp;<a href="https://www.facebook.com/wellotuspa/posts/204366638778712">Saturday, January 14, 2023</a></blockquote></div>
+          <!-- 5 -->
+          <div class="col-lg-4 col-md-6 portfolio-item mb-3 ">
+            <h2>Live performance by : JONNEY &amp; THE BAND </h2>
+            <div class="fb-post" data-href="https://www.facebook.com/wellotuspa/posts/pfbid02xw4UC78qRV8FksZBHVUuohPSCeNS3wYvN42L23tveMAZWC481koRooFJ8QNa5hK1l" data-width="290" data-show-text="true" data-aos="zoom-in"><blockquote cite="https://www.facebook.com/wellotuspa/posts/204729218742454" class="fb-xfbml-parse-ignore"><p>Monday Night: 🥂🍸🍻🍸🎶
+              Live performance by : JONNEY &amp; THE BAND 
+              We gonna make it Rock &amp; 🔥
+              
+              16Jan  2023 , Monday Night...</p>Posted by <a href="https://www.facebook.com/wellotuspa">Lotus Lounge and SPA</a> on&nbsp;<a href="https://www.facebook.com/wellotuspa/posts/204729218742454">Sunday, January 15, 2023</a></blockquote></div>
           </div>
-<!-- end new post -->
-          <div class="col-lg-4 col-md-6 portfolio-item mb-3  " id="new">
+          <!-- 4 -->
+          <div class="col-lg-4 col-md-6 portfolio-item mb-3 ">
             <h2>Live performance by : The WAVE Band</h2>
-            <div class="fb-post" data-href="https://www.facebook.com/wellotuspa/posts/pfbid02V7v9v2fco8zQnyfMqFp7ScTXH3NiMkzaAT13wHrmaXFyn8rynK4kegjww1yyLyu8l" data-width="290" data-show-text="true"><blockquote cite="https://www.facebook.com/wellotuspa/posts/204515755430467" class="fb-xfbml-parse-ignore"><p>Sunday Night: 🥂🍸🍻🍸🎶
+            <div class="fb-post" data-href="https://www.facebook.com/wellotuspa/posts/pfbid02Uwm9ctPsyZqooQ4HmwzXxt4QQiUsHDG8dcR8ooQqZtPqAWEwcF476mX1twPSfmYvl" data-width="290" data-show-text="true" data-aos="zoom-in"><blockquote cite="https://www.facebook.com/wellotuspa/posts/204515755430467" class="fb-xfbml-parse-ignore"><p>Sunday Night: 🥂🍸🍻🍸🎶
               Live performance by : The WAVE Band 
               We gonna make it Rock &amp; 🔥
               
               15 Jan  2023 , Sunday Night 
               Starts...</p>Posted by <a href="https://www.facebook.com/wellotuspa">Lotus Lounge and SPA</a> on&nbsp;<a href="https://www.facebook.com/wellotuspa/posts/204515755430467">Saturday, January 14, 2023</a></blockquote></div>
           </div>
+          <!-- 3 -->
+          <div class="col-lg-4 col-md-6 portfolio-item mb-3  ">
+            <h2>Happy Makar Sankranti</h2><br>
+            <div class="fb-post" data-href="https://www.facebook.com/wellotuspa/posts/pfbid0CCSuZ7QJosARoujmjnVats5jbUXWVyqx9StXUqgKqiZ3aDADJUuqGo4aUwpCdsfXl" data-width="290" data-show-text="true" data-aos="zoom-in"><blockquote cite="https://www.facebook.com/wellotuspa/posts/204366638778712" class="fb-xfbml-parse-ignore"><p>&quot;Sending our Heartfelt Wishes to You and Your Family for a Happy and Blessed Makar Sankranti &quot; 
+              - Lotus Family 🥀</p>Posted by <a href="https://www.facebook.com/wellotuspa">Lotus Lounge and SPA</a> on&nbsp;<a href="https://www.facebook.com/wellotuspa/posts/204366638778712">Saturday, January 14, 2023</a></blockquote></div>
+          </div>
+<!-- end new post -->
+<!-- 2 -->
+          <div class="col-lg-4 col-md-6 portfolio-item mb-3  " id="new">
+            <h2>Live performance by : The WAVE Band</h2>
+            <div class="fb-post" data-href="https://www.facebook.com/wellotuspa/posts/pfbid02V7v9v2fco8zQnyfMqFp7ScTXH3NiMkzaAT13wHrmaXFyn8rynK4kegjww1yyLyu8l" data-width="290" data-show-text="true" data-aos="zoom-in"><blockquote cite="https://www.facebook.com/wellotuspa/posts/204515755430467" class="fb-xfbml-parse-ignore"><p>Sunday Night: 🥂🍸🍻🍸🎶
+              Live performance by : The WAVE Band 
+              We gonna make it Rock &amp; 🔥
+              
+              15 Jan  2023 , Sunday Night 
+              Starts...</p>Posted by <a href="https://www.facebook.com/wellotuspa">Lotus Lounge and SPA</a> on&nbsp;<a href="https://www.facebook.com/wellotuspa/posts/204515755430467">Saturday, January 14, 2023</a></blockquote></div>
+          </div>
+          <!-- 1 -->
           <div class="col-lg-4 col-md-6 portfolio-item mb-3">
             <h2>Live performance by : The Call-Breakers Band </h2>
             <div class="fb-post mb-1" data-href="https://facebook.com/wellotuspa/posts/pfbid0JFZGQDbXqYxXF6GJxNFq6D7VGqUDxBUGQvPV44Fan8Bgy7rVcwcot8NDmF5tecVgl" data-width="290" data-show-text="true" data-aos="zoom-in" ><blockquote cite="https://facebook.com/wellotuspa/posts/204132485468794" class="fb-xfbml-parse-ignore"><p>Saturday Night: 🥂🍸🍻🍸🎶
